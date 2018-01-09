@@ -1,12 +1,16 @@
+
 body{
 	background-color: #777;
+	font-family: Arial;
+	font-size: 18px;
+	color: #777;
 }
 
 .jumbotron{
 	width: 960px;
 	height: 20px;
-	text-align: center;
 	margin: 10px 150px 10px ;
+	text-align: center;
 
 
 }
@@ -21,24 +25,31 @@ body{
 }
 .container{
 	
-	width: 965px;
+	width: 960px;
 }
 
 #section{
 	background-color: white;
-	margin: 20px 20px 20px 20px;
+	margin: 20px 10px 20px 0px;
+	text-align: center;
+	width:495px;
+	padding-top: 40px
+
 }
 #aside{
 	background-color: white;
-	width: 350px;
+	width: 440px;
 	height: 300px;
-	margin: 20px 20px 20px 20px;
+	margin: 20px 0px 20px 10px;
 }
 #article{
 	background-color: #777;
-	margin: 80px 5px 5px 5px;
-	width: 450px;
-	height: 170px
+	margin: 40px 10px 5px 10px;
+	width: 475px;
+	height: 180px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 }
 .headers{
@@ -46,6 +57,17 @@ body{
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 }
+.ptype{
+          padding: -30px ;
+          float: center;
 
+}
+#aside{
+	text-align: center;
+	padding-top: 40px;
+}
 
+#pcolor{
+	color: white;
+}
 
